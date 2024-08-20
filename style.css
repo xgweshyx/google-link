@@ -1,0 +1,29 @@
+.container{
+    height: 50vh;
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1rem;
+    font-size:23px;
+}
+
+@media(max-width: 500px) {
+
+    nav{
+        position: fixed;
+    }
+    .container{
+        overflow-x: hidden;
+        padding: 4rem;
+        height:auto;
+        width:80%;
+    }
+}
